@@ -1,4 +1,4 @@
-package com.code.singletonPattern;
+package com.create.singletonPattern;
 
 /**
  *

@@ -1,6 +1,4 @@
-package com.code.singletonPattern;
-
-import static com.sun.xml.internal.fastinfoset.stax.events.EmptyIterator.instance;
+package com.create.singletonPattern;
 
 /**
  *

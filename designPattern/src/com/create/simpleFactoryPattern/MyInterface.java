@@ -1,4 +1,4 @@
-package com.code.simpleFactoryPattern;
+package com.create.simpleFactoryPattern;
 
 /**
  *

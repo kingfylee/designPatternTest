@@ -1,6 +1,7 @@
-package com.code.singletonPattern;
+package com.create.singletonPattern;
 
 /**
+ *
  * Created by Administrator on 2016/8/27 0027.
  */
 public class StaticNestedClassSingleton {
