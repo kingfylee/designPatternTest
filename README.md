@@ -2,7 +2,9 @@
 设计模式学习笔记
 
 简单工厂模式（Simple Factory Pattern）
+
 1) 工厂方法模式（Factory Method Pattern）
+
 2) 抽象工厂模式（Abstract Factory Pattern）
 3) 建造者模式（Builder Pattern）
 4) 原型模式（Prototype Pattern）
