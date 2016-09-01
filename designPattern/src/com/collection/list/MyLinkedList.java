@@ -36,5 +36,33 @@ public class MyLinkedList<T> {
         return true;
     }
 
+    private T get(int index) {
+        Node<T> node = first;
+        int i = 0;
+        while (node != null) {
+            if (i == index) {
+                return node.data;
+            }
+            node = node.next;
+            i++;
+        }
+        return null;
+    }
+
+    Node<T> getNode(int index) {
+        if (index < (size >> 1)) {
+            Node<T> node = first;
+            for (int i=0;i<index;i++) {
+                node = node.next;
+            }
+            return node;
+        } else {
+            Node<T> node = last;
+            for (int i=size - 1;i>index;i--) {
+                node = node.per;
+            }
+            return node;
+        }
+    }
 
 }
